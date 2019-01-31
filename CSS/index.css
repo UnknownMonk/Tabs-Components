@@ -3,6 +3,24 @@
   margin: 0;
   padding: 0;
 }
+.active .buttons {
+  padding: 5px 0;
+  background: #eee;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+}
+.carouselbox button {
+  border: none;
+  display: none;
+}
+.active button {
+  display: block;
+}
+.offscreen {
+  position: absolute;
+  left: -2000px;
+}
 .dropdown {
   z-index: 2;
   position: absolute;

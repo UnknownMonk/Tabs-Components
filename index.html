@@ -3,6 +3,7 @@
 	<head>
 		<title>Advanced Components</title>
 		<link rel="stylesheet" href="./CSS/index.css">
+		<script src="components/Dropdown/Carousel/carousel.js"></script>
 	</head>
 	<body>
 		<script defer="defer" src="./components/Dropdown/Dropdown.js"></script>
@@ -11,7 +12,7 @@
 		<div class="header-container">
 			<div class="dropdown">
 				<div class="dropdown-button">Dropdown</div>
-				<div class="dropdown-content dropdown-hidden ">
+				<div class="dropdown-content dropdown-hidden">
 					<a class="dropdown-link" href="https://lambdaschool.com/" target="_blank">Lambda</a>
 					<a class="dropdown-link" href="https://www.google.com/" target="_blank">Google</a>
 					<a class="dropdown-link" href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a>
@@ -19,17 +20,17 @@
 			</div>
 			<img src="./lambda_logo_light_small.png" class="header" />
 		</div>
-
-		<div class="section">
-			<div class="box">
-				<div class="box-title">Box Title 1</div>
-				<div class="box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse platea dictumst.</div>
-			</div>
-			<div class="box">
-				<div class="box-title">Box Title 2</div>
-				<div class="box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse platea dictumst.</div>
-			</div>
+<div class="section">
+		<div class="carouselbox">
+			<ol class="car-content">
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+			</ol>
+			<button>Previous</button>
 		</div>
+	</div>
 
 		<div class="section">
 				<div class="tabs">
@@ -38,6 +39,11 @@
 						<div class="tabs-link" data-tab="2">Tab 2</div>
 						<div class="tabs-link" data-tab="3">Tab 3</div>
 						<div class="tabs-link" data-tab="4">Tab 4</div>
+						<div class="tabs-link" data-tab="5">Tab 5</div>
+						<div class="tabs-link" data-tab="6">Tab 6</div>
+						<div class="tabs-link" data-tab="7">Tab 7</div>
+						<div class="tabs-link" data-tab="8">Tab 8</div>
+						<div class="tabs-link" data-tab="9">Tab 9</div>
 					</div>
 					<div class="tabs-items">
 						<div class="tabs-item tabs-item-selected" data-tab="1">
@@ -70,6 +76,41 @@
 								There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will
 								instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states
 								that this has already happened.
+							</div>
+						</div>
+						<div class="tabs-item" data-tab="5">
+							<div class="tabs-item-title">Quote 5</div>
+							<div class="tabs-item-description">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, autem magni. Enim quas ipsum, tempora debitis in
+								voluptatibus provident molestiae et sunt omnis, quibusdam veritatis velit magnam voluptates dolor officiis.
+							</div>
+						</div>
+						<div class="tabs-item" data-tab="6">
+							<div class="tabs-item-title">Quote 6</div>
+							<div class="tabs-item-description">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, autem magni. Enim quas ipsum, tempora debitis in
+								voluptatibus provident molestiae et sunt omnis, quibusdam veritatis velit magnam voluptates dolor officiis.
+							</div>
+						</div>
+						<div class="tabs-item" data-tab="7">
+							<div class="tabs-item-title">Quote 7</div>
+							<div class="tabs-item-description">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, autem magni. Enim quas ipsum, tempora debitis in
+								voluptatibus provident molestiae et sunt omnis, quibusdam veritatis velit magnam voluptates dolor officiis.
+							</div>
+						</div>
+						<div class="tabs-item" data-tab="8">
+							<div class="tabs-item-title">Quote 8</div>
+							<div class="tabs-item-description">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, autem magni. Enim quas ipsum, tempora debitis in
+								voluptatibus provident molestiae et sunt omnis, quibusdam veritatis velit magnam voluptates dolor officiis.
+							</div>
+						</div>
+						<div class="tabs-item" data-tab="9">
+							<div class="tabs-item-title">Quote 9</div>
+							<div class="tabs-item-description">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, autem magni. Enim quas ipsum, tempora debitis in
+								voluptatibus provident molestiae et sunt omnis, quibusdam veritatis velit magnam voluptates dolor officiis.
 							</div>
 						</div>
 					</div>
